@@ -1,0 +1,30 @@
+#include <windows.h>
+
+#define IDI_APPICON 101
+
+IDI_APPICON ICON "stickman.ico"
+
+1 VERSIONINFO
+FILEVERSION 4,0,0,0
+PRODUCTVERSION 4,0,0,0
+FILEOS 0x40004
+FILETYPE 0x1
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041904B0"
+        BEGIN
+            VALUE "CompanyName", "Alan Becker Fan Recreation"
+            VALUE "FileDescription", "desktop-stickman Desktop Overlay v4"
+            VALUE "FileVersion", "4.0.0"
+            VALUE "InternalName", "desktop-stickman"
+            VALUE "OriginalFilename", "desktop-stickman.exe"
+            VALUE "ProductName", "Alan Becker Desktop Stickmen"
+            VALUE "ProductVersion", "4.0.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x0419, 1200
+    END
+END
